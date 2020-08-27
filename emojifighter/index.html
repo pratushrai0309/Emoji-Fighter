@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Fighter 😆</title>
+    <link rel = "shortcut icon" type = "image/png" href = "img/logo.png" > 
+    <link rel="stylesheet" href="Stylesheet.css"/>
+</head>
+<body id = "body">
+
+    <!--Logo-->
+    <button id = "light">🌞</button>
+    <button id = "dark">🌚</button>
+    <h1 id = "h1">Emoji Fighter</h1>
+<!--Main PlayGround-->
+
+    <div id="playground">
+
+        <!--Status Of The Game-->
+
+        <div id = "gamestatus">
+            <h1 id = "gamestatush1">Player 1 Turn</h1>
+        </div>
+
+        <!--Player1-->
+
+        <div id = "player1">
+            <h2 id = "health1">100</h2>
+            <div id = "player1card" class="card1 active">
+       <h1 id = "emoji" >-</h1>
+            <h2 id = "damage"> Damage: </h2><span id="damagevalue">-</span>
+        </div>
+        </div>
+
+        <!--PLayer2-->
+
+        <div id = "player2">
+            <h2 id = "health2">100</h2>
+            <div id = "player2card" class="card2">
+        <h1 id = "emoji2">-</h1>
+            <h2 id = "damage2">Damage:</h2><span id = "damagevalue2">-</span>
+        </div>
+        </div>
+
+    <!--FightButton-->
+
+    <div id = "button">
+        <button id = "fight">Fight⚔️</button>
+    </div>
+
+    <!--ResetButton-->
+     <div id = "reset">
+         <button id = "resetB">Reset Game🔄</button>
+     </div>
+     <script src = "app.js"></script>
+</body>
+</html>

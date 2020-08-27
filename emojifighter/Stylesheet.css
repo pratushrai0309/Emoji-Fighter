@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2C2A2A;
+}
+#h1{
+    font-family: "Alata";
+    margin: 15px;
+    font-size: 40px;
+    color: #D5BAAC;
+}
+#light{
+    float: right;
+    clear: right;
+    margin: 15px 20px;
+    background-color: #2C2A2A;  
+    border: none;
+    font-size: 50px;
+}
+#dark{
+    float: right;
+    clear: right;
+    margin: 15px 20px;
+    background-color: #2C2A2A;  
+    border: none;
+    font-size: 50px; 
+}
+#playground{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #7B7979;
+    border-radius: 10px;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 50px;
+    font-family: "Londrina Solid";
+}
+#gamestatush1{
+    text-align: center;
+    font-size: 60px;
+}
+#emoji{
+    font-size: 100px;
+}
+#emoji2{
+    font-size: 100px;
+}
+#damagevalue{
+    font-size: 50px;
+}
+#damagevalue2{
+    font-size: 50px;
+}
+#player1{
+    float: left;
+    clear: left;
+}
+#player2{
+    float: right;
+    clear: right;
+}
+#player1card{
+    width: 200px;
+    height: 300px;
+    background-color: #FFCDCD;
+    border-radius: 5px;
+    text-align: center;
+}
+#player2card{
+    width: 200px;
+    height: 300px;
+    background-color: #FFCDCD;
+    border-radius: 5px;
+    text-align: center;
+}
+#fight{
+    border: none;
+    color: white;
+    background-color: #e72121;
+    margin-top: 450px;
+    margin-right: 350px;
+    margin-left: 350px;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+    font-family: "Londrina Solid";
+}
+#resetB{
+    border: none;
+    color: white;
+    background-color: #8dc4a2;
+    margin-top: 450px;
+    margin-right: 350px;
+    margin-left: 350px;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: none; 
+    font-family: "Londrina Solid";
+}
+#health1{
+    font-size: 30px;
+    color: #84F63E;
+}
+#health2{
+    font-size: 30px;
+    color: #84F63E;
+}
+.active{
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
